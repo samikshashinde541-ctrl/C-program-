@@ -1,0 +1,16 @@
+find a large of two numbers 
+#include <stdio.h>
+
+int main() 
+{
+    int a = 25, b = 40;
+
+    if (a > b)
+        printf("A is largest");
+    else if (b > a)
+        printf("B is largest");
+    else
+        printf("Both are equal");
+
+    return 0;
+}
