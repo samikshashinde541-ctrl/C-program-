@@ -1,0 +1,17 @@
+find the LCM of two students 
+#include <stdio.h>
+
+int main()
+ {
+    int a = 12, b = 18;
+    int x = a, y = b, r;
+
+    while (y != 0) {
+        r = x % y;
+        x = y;
+        y = r;
+    }
+
+    printf("LCM = %d", (a / x) * b);
+    return 0;
+}
